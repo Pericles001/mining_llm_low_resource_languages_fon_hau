@@ -1,0 +1,131 @@
+{
+    "task_type": "dialogue",
+    "description": "Elicit conversations, interviews, market negotiations, and family discussions",
+    "prompts": [
+        {
+            "id": "dl_01",
+            "template": "Write a conversation in {language} between two friends meeting at the market after a long time. Include at least 8 turns of dialogue.",
+            "subtask": "conversation"
+        },
+        {
+            "id": "dl_02",
+            "template": "Write a conversation in {language} between a customer and a shopkeeper negotiating the price of fabric. Include at least 8 turns.",
+            "subtask": "conversation"
+        },
+        {
+            "id": "dl_03",
+            "template": "Write a conversation in {language} between a parent and a child discussing what the child wants to become when they grow up. Include at least 8 turns.",
+            "subtask": "conversation"
+        },
+        {
+            "id": "dl_04",
+            "template": "Write a conversation in {language} between two neighbors discussing a recent event in the community. Include at least 8 turns.",
+            "subtask": "conversation"
+        },
+        {
+            "id": "dl_05",
+            "template": "Write a conversation in {language} between a teacher and a student who is struggling with a subject. Include at least 8 turns.",
+            "subtask": "conversation"
+        },
+        {
+            "id": "dl_06",
+            "template": "Write a dialogue in {language} between a patient and a doctor at a clinic. The patient describes symptoms and the doctor gives advice. Include at least 8 turns.",
+            "subtask": "professional"
+        },
+        {
+            "id": "dl_07",
+            "template": "Write a dialogue in {language} between a farmer and an agricultural extension officer discussing crop disease. Include at least 8 turns.",
+            "subtask": "professional"
+        },
+        {
+            "id": "dl_08",
+            "template": "Write a dialogue in {language} between a bank officer and a customer opening their first savings account. Include at least 8 turns.",
+            "subtask": "professional"
+        },
+        {
+            "id": "dl_09",
+            "template": "Write a dialogue in {language} between a mechanic and a car owner explaining what repairs are needed. Include at least 8 turns.",
+            "subtask": "professional"
+        },
+        {
+            "id": "dl_10",
+            "template": "Write a dialogue in {language} between a landlord and a tenant discussing rent and house repairs. Include at least 8 turns.",
+            "subtask": "professional"
+        },
+        {
+            "id": "dl_11",
+            "template": "Write a family discussion in {language} where grandparents, parents, and children are deciding where to celebrate a holiday. Include at least 8 turns with multiple speakers.",
+            "subtask": "family"
+        },
+        {
+            "id": "dl_12",
+            "template": "Write a family discussion in {language} about whether a young person should continue their education or start working. Include at least 8 turns.",
+            "subtask": "family"
+        },
+        {
+            "id": "dl_13",
+            "template": "Write a family discussion in {language} about preparing for a wedding ceremony. Include at least 8 turns with multiple speakers.",
+            "subtask": "family"
+        },
+        {
+            "id": "dl_14",
+            "template": "Write a family discussion in {language} about a new baby's naming ceremony. Include at least 8 turns.",
+            "subtask": "family"
+        },
+        {
+            "id": "dl_15",
+            "template": "Write a family discussion in {language} about moving from the village to the city. Include at least 8 turns.",
+            "subtask": "family"
+        },
+        {
+            "id": "dl_16",
+            "template": "Write an interview in {language} with a local chief about the history and traditions of the community. Include at least 8 question-answer pairs.",
+            "subtask": "interview"
+        },
+        {
+            "id": "dl_17",
+            "template": "Write an interview in {language} with a successful local businesswoman about how she built her business. Include at least 8 question-answer pairs.",
+            "subtask": "interview"
+        },
+        {
+            "id": "dl_18",
+            "template": "Write an interview in {language} with a traditional healer about local medicinal plants. Include at least 8 question-answer pairs.",
+            "subtask": "interview"
+        },
+        {
+            "id": "dl_19",
+            "template": "Write an interview in {language} with a young student about their dreams and challenges in education. Include at least 8 question-answer pairs.",
+            "subtask": "interview"
+        },
+        {
+            "id": "dl_20",
+            "template": "Write an interview in {language} with a fisherman about his daily work and the challenges he faces. Include at least 8 question-answer pairs.",
+            "subtask": "interview"
+        },
+        {
+            "id": "dl_21",
+            "template": "Write a market negotiation in {language} between a buyer and a seller of goats. They should haggle over the price. Include at least 8 turns.",
+            "subtask": "negotiation"
+        },
+        {
+            "id": "dl_22",
+            "template": "Write a market negotiation in {language} between a buyer and a seller of yams. Include at least 8 turns of bargaining.",
+            "subtask": "negotiation"
+        },
+        {
+            "id": "dl_23",
+            "template": "Write a market negotiation in {language} between a buyer and a seller of second-hand clothes. Include at least 8 turns.",
+            "subtask": "negotiation"
+        },
+        {
+            "id": "dl_24",
+            "template": "Write a negotiation in {language} between a taxi driver and a passenger about the fare for a trip. Include at least 8 turns.",
+            "subtask": "negotiation"
+        },
+        {
+            "id": "dl_25",
+            "template": "Write a negotiation in {language} between a craftsman and a customer ordering a custom-made item. Include at least 8 turns.",
+            "subtask": "negotiation"
+        }
+    ]
+}

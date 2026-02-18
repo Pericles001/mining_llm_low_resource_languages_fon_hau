@@ -1,0 +1,131 @@
+{
+    "task_type": "creative_writing",
+    "description": "Elicit poems, short stories, folktales, songs, and proverbs",
+    "prompts": [
+        {
+            "id": "cw_01",
+            "template": "Write a short poem in {language} about the rainy season.",
+            "subtask": "poem"
+        },
+        {
+            "id": "cw_02",
+            "template": "Write a short poem in {language} about a mother's love.",
+            "subtask": "poem"
+        },
+        {
+            "id": "cw_03",
+            "template": "Write a short poem in {language} about the beauty of the village.",
+            "subtask": "poem"
+        },
+        {
+            "id": "cw_04",
+            "template": "Write a short poem in {language} about farming and harvest.",
+            "subtask": "poem"
+        },
+        {
+            "id": "cw_05",
+            "template": "Write a short poem in {language} about friendship.",
+            "subtask": "poem"
+        },
+        {
+            "id": "cw_06",
+            "template": "Write a traditional folktale in {language} about a clever tortoise who outsmarts a lion. The story should be 5-10 sentences long.",
+            "subtask": "folktale"
+        },
+        {
+            "id": "cw_07",
+            "template": "Write a traditional folktale in {language} about why the spider has eight legs. The story should be 5-10 sentences long.",
+            "subtask": "folktale"
+        },
+        {
+            "id": "cw_08",
+            "template": "Write a traditional folktale in {language} about a young girl who saves her village. The story should be 5-10 sentences long.",
+            "subtask": "folktale"
+        },
+        {
+            "id": "cw_09",
+            "template": "Write a traditional folktale in {language} about how the moon got its light. The story should be 5-10 sentences long.",
+            "subtask": "folktale"
+        },
+        {
+            "id": "cw_10",
+            "template": "Write a traditional folktale in {language} about the rivalry between the hyena and the hare. The story should be 5-10 sentences long.",
+            "subtask": "folktale"
+        },
+        {
+            "id": "cw_11",
+            "template": "Write a short story in {language} about a child's first day at school. The story should be 5-8 sentences.",
+            "subtask": "story"
+        },
+        {
+            "id": "cw_12",
+            "template": "Write a short story in {language} about a farmer who discovers something surprising in his field. The story should be 5-8 sentences.",
+            "subtask": "story"
+        },
+        {
+            "id": "cw_13",
+            "template": "Write a short story in {language} about a journey to a big city for the first time. The story should be 5-8 sentences.",
+            "subtask": "story"
+        },
+        {
+            "id": "cw_14",
+            "template": "Write a short story in {language} about a grandmother teaching her grandchild to cook. The story should be 5-8 sentences.",
+            "subtask": "story"
+        },
+        {
+            "id": "cw_15",
+            "template": "Write a short story in {language} about two friends who start a small business together. The story should be 5-8 sentences.",
+            "subtask": "story"
+        },
+        {
+            "id": "cw_16",
+            "template": "Write the lyrics of a short song in {language} about celebrating a wedding.",
+            "subtask": "song"
+        },
+        {
+            "id": "cw_17",
+            "template": "Write the lyrics of a short song in {language} about the joy of a newborn baby.",
+            "subtask": "song"
+        },
+        {
+            "id": "cw_18",
+            "template": "Write the lyrics of a short song in {language} about working together in the community.",
+            "subtask": "song"
+        },
+        {
+            "id": "cw_19",
+            "template": "Write the lyrics of a short song in {language} about missing your homeland.",
+            "subtask": "song"
+        },
+        {
+            "id": "cw_20",
+            "template": "Write the lyrics of a short song in {language} about the sunrise.",
+            "subtask": "song"
+        },
+        {
+            "id": "cw_21",
+            "template": "Write 5 traditional proverbs in {language} about wisdom and patience.",
+            "subtask": "proverb"
+        },
+        {
+            "id": "cw_22",
+            "template": "Write 5 traditional proverbs in {language} about family and community.",
+            "subtask": "proverb"
+        },
+        {
+            "id": "cw_23",
+            "template": "Write 5 traditional proverbs in {language} about hard work and perseverance.",
+            "subtask": "proverb"
+        },
+        {
+            "id": "cw_24",
+            "template": "Write 5 traditional proverbs in {language} about honesty and trust.",
+            "subtask": "proverb"
+        },
+        {
+            "id": "cw_25",
+            "template": "Write 5 traditional proverbs in {language} about nature and the environment.",
+            "subtask": "proverb"
+        }
+    ]
+}

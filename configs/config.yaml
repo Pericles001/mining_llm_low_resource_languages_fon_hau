@@ -1,0 +1,59 @@
+# Configuration for LLM Mining Experiments
+
+# Models
+models:
+  gemini:
+    name: "gemini-2.5-flash"
+    provider: "google"
+    temperature: 0.7
+    max_output_tokens: 1024
+    top_p: 0.95
+  gpt4o_mini:
+    name: "gpt-4o-mini"
+    provider: "openai"
+    temperature: 0.7
+    max_tokens: 1024
+    top_p: 0.95
+
+# Languages
+languages:
+  - code: "hau"
+    name: "Hausa"
+    family: "Afroasiatic"
+    colonial_language: "English"
+  - code: "fon"
+    name: "Fongbe"
+    family: "Niger-Congo"
+    colonial_language: "French"
+
+# Elicitation task types
+task_types:
+  - creative_writing
+  - functional_text
+  - structured_knowledge
+  - dialogue
+  - topic_switching
+  - constrained_generation
+
+# Generation settings
+generation:
+  prompts_per_task: 25        # 25 prompts x 6 tasks = 150 per language
+  outputs_per_prompt: 1       # 1 output per prompt (can increase for variance)
+  retry_on_failure: 3
+  delay_between_calls: 1.0    # seconds, to respect rate limits
+
+# Evaluation settings
+evaluation:
+  language_detection_model: "fasttext"  # or "langdetect"
+  min_output_length: 20                 # minimum tokens to count as valid output
+  code_switch_languages:
+    hau: ["en", "eng"]
+    fon: ["fr", "fra"]
+
+# Paths
+paths:
+  prompts_dir: "prompts/"
+  raw_output_dir: "outputs/raw/"
+  eval_output_dir: "outputs/evaluated/"
+  results_dir: "results/"
+  human_eval_dir: "human_eval/"

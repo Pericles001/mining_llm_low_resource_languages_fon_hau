@@ -1,0 +1,151 @@
+{
+    "task_type": "constrained_generation",
+    "description": "Generate text with specific constraints: use target vocabulary, avoid code-switching, stay in target language only",
+    "prompts": [
+        {
+            "id": "cg_01",
+            "template": "Write a short paragraph in {language} using ALL of the following words: {word_list_1}. Do not use any {colonial_language} words.",
+            "subtask": "vocabulary_constrained",
+            "word_lists": {
+                "Hausa": "ruwa (water), rana (sun), gida (house), yaro (boy), abinci (food)",
+                "Fongbe": "sin (water), hwesivɔ (sun), xwé (house), nyɔ̀ví (child), nùɖuɖu (food)"
+            }
+        },
+        {
+            "id": "cg_02",
+            "template": "Write a short paragraph in {language} using ALL of the following words: {word_list_2}. Do not use any {colonial_language} words.",
+            "subtask": "vocabulary_constrained",
+            "word_lists": {
+                "Hausa": "makaranta (school), malami (teacher), littafi (book), dalibai (students), karatu (reading)",
+                "Fongbe": "wemaxɔ (school), mɛ̀si (teacher), wema (book), wemɛvi (students), wemaxɔ (learning)"
+            }
+        },
+        {
+            "id": "cg_03",
+            "template": "Write a short paragraph in {language} using ALL of the following words: {word_list_3}. Do not use any {colonial_language} words.",
+            "subtask": "vocabulary_constrained",
+            "word_lists": {
+                "Hausa": "kasuwa (market), kudin (money), sayar (sell), saya (buy), farashi (price)",
+                "Fongbe": "asigba (market), akwɛ (money), sà (sell), xɔ (buy), axɔ́ (price)"
+            }
+        },
+        {
+            "id": "cg_04",
+            "template": "Write a short paragraph in {language} using ALL of the following words: {word_list_4}. Do not use any {colonial_language} words.",
+            "subtask": "vocabulary_constrained",
+            "word_lists": {
+                "Hausa": "noma (farming), gona (farm), hatsi (grain), damina (rainy season), girbi (harvest)",
+                "Fongbe": "agligba (farming), gle (farm), gbadé (corn), jǐ (rain), nùkún (harvest)"
+            }
+        },
+        {
+            "id": "cg_05",
+            "template": "Write a short paragraph in {language} using ALL of the following words: {word_list_5}. Do not use any {colonial_language} words.",
+            "subtask": "vocabulary_constrained",
+            "word_lists": {
+                "Hausa": "lafiya (health), likita (doctor), magani (medicine), ciwon (sickness), asibiti (hospital)",
+                "Fongbe": "lanmɛ (health), dotóo (doctor), amasin (medicine), azɔn (sickness), dotóoxwé (hospital)"
+            }
+        },
+        {
+            "id": "cg_06",
+            "template": "Write a story in {language} about a day at the market. You must write ONLY in {language}. If you do not know a word in {language}, describe the concept using other {language} words instead of switching to {colonial_language}.",
+            "subtask": "no_codeswitching"
+        },
+        {
+            "id": "cg_07",
+            "template": "Write a story in {language} about a visit to the hospital. You must write ONLY in {language}. If you do not know a word in {language}, describe the concept using other {language} words instead of switching to {colonial_language}.",
+            "subtask": "no_codeswitching"
+        },
+        {
+            "id": "cg_08",
+            "template": "Write a story in {language} about a child learning to use a mobile phone. You must write ONLY in {language}. If you do not know a word in {language}, describe the concept using other {language} words instead of switching to {colonial_language}.",
+            "subtask": "no_codeswitching"
+        },
+        {
+            "id": "cg_09",
+            "template": "Write a story in {language} about attending a football match. You must write ONLY in {language}. If you do not know a word in {language}, describe the concept using other {language} words instead of switching to {colonial_language}.",
+            "subtask": "no_codeswitching"
+        },
+        {
+            "id": "cg_10",
+            "template": "Write a story in {language} about traveling to another country. You must write ONLY in {language}. If you do not know a word in {language}, describe the concept using other {language} words instead of switching to {colonial_language}.",
+            "subtask": "no_codeswitching"
+        },
+        {
+            "id": "cg_11",
+            "template": "Write exactly 5 sentences in {language} about your family. Each sentence must be between 8 and 15 words long. Use only {language}.",
+            "subtask": "length_constrained"
+        },
+        {
+            "id": "cg_12",
+            "template": "Write exactly 5 sentences in {language} about the weather. Each sentence must be between 8 and 15 words long. Use only {language}.",
+            "subtask": "length_constrained"
+        },
+        {
+            "id": "cg_13",
+            "template": "Write exactly 5 sentences in {language} about food and eating. Each sentence must be between 8 and 15 words long. Use only {language}.",
+            "subtask": "length_constrained"
+        },
+        {
+            "id": "cg_14",
+            "template": "Write exactly 5 sentences in {language} about work and jobs. Each sentence must be between 8 and 15 words long. Use only {language}.",
+            "subtask": "length_constrained"
+        },
+        {
+            "id": "cg_15",
+            "template": "Write exactly 5 sentences in {language} about animals. Each sentence must be between 8 and 15 words long. Use only {language}.",
+            "subtask": "length_constrained"
+        },
+        {
+            "id": "cg_16",
+            "template": "Describe in {language} what a computer is and how it works. Use ONLY {language} words. Do not use any English or French technical terms - find ways to describe the concepts using {language}.",
+            "subtask": "technical_monolingual"
+        },
+        {
+            "id": "cg_17",
+            "template": "Describe in {language} what electricity is and how it reaches people's homes. Use ONLY {language} words. Do not use any English or French technical terms.",
+            "subtask": "technical_monolingual"
+        },
+        {
+            "id": "cg_18",
+            "template": "Describe in {language} what a bank is and how people save money. Use ONLY {language} words. Do not use any English or French technical terms.",
+            "subtask": "technical_monolingual"
+        },
+        {
+            "id": "cg_19",
+            "template": "Describe in {language} what a radio station is and how it broadcasts. Use ONLY {language} words. Do not use any English or French technical terms.",
+            "subtask": "technical_monolingual"
+        },
+        {
+            "id": "cg_20",
+            "template": "Describe in {language} what a vaccination is and why it is important. Use ONLY {language} words. Do not use any English or French technical terms.",
+            "subtask": "technical_monolingual"
+        },
+        {
+            "id": "cg_21",
+            "template": "Write a short text in {language} that contains exactly 3 questions and 3 answers about daily life. Use only {language}.",
+            "subtask": "structure_constrained"
+        },
+        {
+            "id": "cg_22",
+            "template": "Write a short text in {language} that contains exactly 3 questions and 3 answers about food and cooking. Use only {language}.",
+            "subtask": "structure_constrained"
+        },
+        {
+            "id": "cg_23",
+            "template": "Write a short text in {language} that contains exactly 3 questions and 3 answers about health. Use only {language}.",
+            "subtask": "structure_constrained"
+        },
+        {
+            "id": "cg_24",
+            "template": "Write a short text in {language} that contains exactly 3 questions and 3 answers about farming. Use only {language}.",
+            "subtask": "structure_constrained"
+        },
+        {
+            "id": "cg_25",
+            "template": "Write a short text in {language} that contains exactly 3 questions and 3 answers about school and education. Use only {language}.",
+            "subtask": "structure_constrained"
+        }
+    ]
+}

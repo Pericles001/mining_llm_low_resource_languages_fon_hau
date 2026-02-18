@@ -1,0 +1,131 @@
+{
+    "task_type": "structured_knowledge",
+    "description": "Elicit definitions, word explanations, grammar examples, proverb explanations, and translations",
+    "prompts": [
+        {
+            "id": "sk_01",
+            "template": "Define the following 10 words in {language} (provide the definition entirely in {language}): water, sun, tree, house, child, road, food, market, school, river.",
+            "subtask": "definition"
+        },
+        {
+            "id": "sk_02",
+            "template": "Define the following 10 words in {language} (provide the definition entirely in {language}): farmer, rain, earth, fire, animal, king, medicine, dance, drum, night.",
+            "subtask": "definition"
+        },
+        {
+            "id": "sk_03",
+            "template": "Define the following 10 words in {language} (provide the definition entirely in {language}): teacher, hospital, money, telephone, bicycle, church, mosque, village, city, mountain.",
+            "subtask": "definition"
+        },
+        {
+            "id": "sk_04",
+            "template": "Define the following 10 words in {language} (provide the definition entirely in {language}): happiness, anger, love, fear, hunger, peace, war, truth, lie, dream.",
+            "subtask": "definition"
+        },
+        {
+            "id": "sk_05",
+            "template": "Define the following 10 words in {language} (provide the definition entirely in {language}): morning, evening, yesterday, tomorrow, slowly, quickly, together, alone, inside, outside.",
+            "subtask": "definition"
+        },
+        {
+            "id": "sk_06",
+            "template": "Explain in {language} how greetings work in {language_culture}. Describe morning greetings, afternoon greetings, and how to greet elders.",
+            "subtask": "cultural_explanation"
+        },
+        {
+            "id": "sk_07",
+            "template": "Explain in {language} the traditional naming ceremony practices in {language_culture}.",
+            "subtask": "cultural_explanation"
+        },
+        {
+            "id": "sk_08",
+            "template": "Explain in {language} the importance of the marketplace in {language_culture} community life.",
+            "subtask": "cultural_explanation"
+        },
+        {
+            "id": "sk_09",
+            "template": "Explain in {language} the role of elders in {language_culture} society.",
+            "subtask": "cultural_explanation"
+        },
+        {
+            "id": "sk_10",
+            "template": "Explain in {language} the traditional marriage customs in {language_culture}.",
+            "subtask": "cultural_explanation"
+        },
+        {
+            "id": "sk_11",
+            "template": "Write 10 example sentences in {language} that use the past tense.",
+            "subtask": "grammar_examples"
+        },
+        {
+            "id": "sk_12",
+            "template": "Write 10 example sentences in {language} that use the future tense.",
+            "subtask": "grammar_examples"
+        },
+        {
+            "id": "sk_13",
+            "template": "Write 10 example sentences in {language} that contain questions.",
+            "subtask": "grammar_examples"
+        },
+        {
+            "id": "sk_14",
+            "template": "Write 10 example sentences in {language} that use numbers and counting.",
+            "subtask": "grammar_examples"
+        },
+        {
+            "id": "sk_15",
+            "template": "Write 10 example sentences in {language} that describe people's appearances.",
+            "subtask": "grammar_examples"
+        },
+        {
+            "id": "sk_16",
+            "template": "List 20 common animals and their names in {language}.",
+            "subtask": "vocabulary_list"
+        },
+        {
+            "id": "sk_17",
+            "template": "List 20 common foods and their names in {language}.",
+            "subtask": "vocabulary_list"
+        },
+        {
+            "id": "sk_18",
+            "template": "List 20 body parts and their names in {language}.",
+            "subtask": "vocabulary_list"
+        },
+        {
+            "id": "sk_19",
+            "template": "List 20 common household items and their names in {language}.",
+            "subtask": "vocabulary_list"
+        },
+        {
+            "id": "sk_20",
+            "template": "List 20 words related to weather and seasons in {language}.",
+            "subtask": "vocabulary_list"
+        },
+        {
+            "id": "sk_21",
+            "template": "Translate the following sentences into {language}: 'The children are playing in the field. Their mother is cooking dinner. The father will return from work soon. The whole family eats together every evening.'",
+            "subtask": "translation"
+        },
+        {
+            "id": "sk_22",
+            "template": "Translate the following sentences into {language}: 'The market is very busy today. Many people are buying vegetables. The price of rice has increased. A woman is selling beautiful cloth.'",
+            "subtask": "translation"
+        },
+        {
+            "id": "sk_23",
+            "template": "Translate the following sentences into {language}: 'The teacher asked the students to open their books. The lesson today is about history. Everyone must do their homework. The exam is next week.'",
+            "subtask": "translation"
+        },
+        {
+            "id": "sk_24",
+            "template": "Translate the following sentences into {language}: 'It is raining heavily outside. The roads are flooded. People are staying inside their houses. The children cannot go to school today.'",
+            "subtask": "translation"
+        },
+        {
+            "id": "sk_25",
+            "template": "Translate the following sentences into {language}: 'The doctor examined the patient carefully. She prescribed some medicine. The patient should rest for three days. Good health is very important.'",
+            "subtask": "translation"
+        }
+    ]
+}

@@ -1,0 +1,131 @@
+{
+    "task_type": "functional_text",
+    "description": "Elicit letters, instructions, news articles, recipes, and announcements",
+    "prompts": [
+        {
+            "id": "ft_01",
+            "template": "Write a formal letter in {language} from a parent to a school principal requesting a meeting about their child's progress.",
+            "subtask": "letter"
+        },
+        {
+            "id": "ft_02",
+            "template": "Write an informal letter in {language} from a young person to their uncle in the village, describing life in the city.",
+            "subtask": "letter"
+        },
+        {
+            "id": "ft_03",
+            "template": "Write a letter in {language} from a community leader inviting villagers to a town hall meeting about a new water project.",
+            "subtask": "letter"
+        },
+        {
+            "id": "ft_04",
+            "template": "Write a letter of complaint in {language} to a shop owner about a defective product.",
+            "subtask": "letter"
+        },
+        {
+            "id": "ft_05",
+            "template": "Write a thank-you letter in {language} to a teacher who helped a student succeed in exams.",
+            "subtask": "letter"
+        },
+        {
+            "id": "ft_06",
+            "template": "Write step-by-step instructions in {language} for how to plant and care for tomatoes.",
+            "subtask": "instructions"
+        },
+        {
+            "id": "ft_07",
+            "template": "Write step-by-step instructions in {language} for how to prepare for a job interview.",
+            "subtask": "instructions"
+        },
+        {
+            "id": "ft_08",
+            "template": "Write step-by-step instructions in {language} for how to make a simple soap at home.",
+            "subtask": "instructions"
+        },
+        {
+            "id": "ft_09",
+            "template": "Write step-by-step instructions in {language} for how to register for a national ID card.",
+            "subtask": "instructions"
+        },
+        {
+            "id": "ft_10",
+            "template": "Write step-by-step instructions in {language} for how to treat a minor burn wound at home.",
+            "subtask": "instructions"
+        },
+        {
+            "id": "ft_11",
+            "template": "Write a short news article in {language} about a new school being built in a rural area.",
+            "subtask": "news"
+        },
+        {
+            "id": "ft_12",
+            "template": "Write a short news article in {language} about local farmers achieving a record harvest this year.",
+            "subtask": "news"
+        },
+        {
+            "id": "ft_13",
+            "template": "Write a short news article in {language} about a youth football tournament in the region.",
+            "subtask": "news"
+        },
+        {
+            "id": "ft_14",
+            "template": "Write a short news article in {language} about a community effort to clean up a local river.",
+            "subtask": "news"
+        },
+        {
+            "id": "ft_15",
+            "template": "Write a short news article in {language} about a new health clinic opening in a town.",
+            "subtask": "news"
+        },
+        {
+            "id": "ft_16",
+            "template": "Write a recipe in {language} for a traditional local dish, including ingredients and preparation steps.",
+            "subtask": "recipe"
+        },
+        {
+            "id": "ft_17",
+            "template": "Write a recipe in {language} for a simple breakfast meal that a student can prepare quickly.",
+            "subtask": "recipe"
+        },
+        {
+            "id": "ft_18",
+            "template": "Write a recipe in {language} for a festive dish typically served at celebrations.",
+            "subtask": "recipe"
+        },
+        {
+            "id": "ft_19",
+            "template": "Write a recipe in {language} for a healthy soup using local vegetables.",
+            "subtask": "recipe"
+        },
+        {
+            "id": "ft_20",
+            "template": "Write a recipe in {language} for a popular street food snack.",
+            "subtask": "recipe"
+        },
+        {
+            "id": "ft_21",
+            "template": "Write a public announcement in {language} informing residents about a scheduled power outage in their area.",
+            "subtask": "announcement"
+        },
+        {
+            "id": "ft_22",
+            "template": "Write a public announcement in {language} about a free vaccination campaign for children at the local clinic.",
+            "subtask": "announcement"
+        },
+        {
+            "id": "ft_23",
+            "template": "Write a public announcement in {language} about a community meeting to discuss road construction.",
+            "subtask": "announcement"
+        },
+        {
+            "id": "ft_24",
+            "template": "Write a public announcement in {language} about a lost child and asking for community help to find them.",
+            "subtask": "announcement"
+        },
+        {
+            "id": "ft_25",
+            "template": "Write a public announcement in {language} about a local market day schedule change.",
+            "subtask": "announcement"
+        }
+    ]
+}

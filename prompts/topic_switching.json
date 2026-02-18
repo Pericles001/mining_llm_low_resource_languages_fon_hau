@@ -1,0 +1,131 @@
+{
+    "task_type": "topic_switching",
+    "description": "Start on topic A, mid-prompt switch to topic B. Tests whether LLM maintains language fidelity under topic changes.",
+    "prompts": [
+        {
+            "id": "ts_01",
+            "template": "Write a paragraph in {language} about cooking a meal. Then, without switching to any other language, write a paragraph about football.",
+            "subtask": "domestic_to_sports"
+        },
+        {
+            "id": "ts_02",
+            "template": "Write a paragraph in {language} about going to school. Then, without switching to any other language, write a paragraph about farming.",
+            "subtask": "education_to_agriculture"
+        },
+        {
+            "id": "ts_03",
+            "template": "Write a paragraph in {language} about a wedding celebration. Then, without switching to any other language, write a paragraph about mobile phones.",
+            "subtask": "cultural_to_technology"
+        },
+        {
+            "id": "ts_04",
+            "template": "Write a paragraph in {language} about the weather today. Then, without switching to any other language, write a paragraph about politics.",
+            "subtask": "weather_to_politics"
+        },
+        {
+            "id": "ts_05",
+            "template": "Write a paragraph in {language} about fishing. Then, without switching to any other language, write a paragraph about religion.",
+            "subtask": "livelihood_to_religion"
+        },
+        {
+            "id": "ts_06",
+            "template": "Write a paragraph in {language} about traditional medicine. Then, without switching to any other language, write a paragraph about modern hospitals.",
+            "subtask": "traditional_to_modern"
+        },
+        {
+            "id": "ts_07",
+            "template": "Write a paragraph in {language} about a child playing. Then, without switching to any other language, write a paragraph about death and mourning.",
+            "subtask": "joy_to_sorrow"
+        },
+        {
+            "id": "ts_08",
+            "template": "Write a paragraph in {language} about market day. Then, without switching to any other language, write a paragraph about the internet.",
+            "subtask": "traditional_to_digital"
+        },
+        {
+            "id": "ts_09",
+            "template": "Write a paragraph in {language} about building a house. Then, without switching to any other language, write a paragraph about music and dancing.",
+            "subtask": "construction_to_arts"
+        },
+        {
+            "id": "ts_10",
+            "template": "Write a paragraph in {language} about traveling by bus. Then, without switching to any other language, write a paragraph about dreams and sleep.",
+            "subtask": "transport_to_abstract"
+        },
+        {
+            "id": "ts_11",
+            "template": "Start telling a story in {language} about a hunter going into the forest. Halfway through, the story should suddenly shift to the hunter using a computer at an office. Continue entirely in {language}.",
+            "subtask": "narrative_shift"
+        },
+        {
+            "id": "ts_12",
+            "template": "Start telling a story in {language} about preparing food for a feast. Halfway through, shift to discussing climate change. Continue entirely in {language}.",
+            "subtask": "narrative_shift"
+        },
+        {
+            "id": "ts_13",
+            "template": "Start telling a story in {language} about a fisherman at the river. Halfway through, shift to the fisherman discovering a book about mathematics. Continue entirely in {language}.",
+            "subtask": "narrative_shift"
+        },
+        {
+            "id": "ts_14",
+            "template": "Start telling a story in {language} about an elder sharing wisdom. Halfway through, shift to the elder explaining how airplanes work. Continue entirely in {language}.",
+            "subtask": "narrative_shift"
+        },
+        {
+            "id": "ts_15",
+            "template": "Start telling a story in {language} about children playing in the rain. Halfway through, shift to a news report about an election. Continue entirely in {language}.",
+            "subtask": "narrative_shift"
+        },
+        {
+            "id": "ts_16",
+            "template": "Write three short paragraphs in {language}, each about a completely different topic: (1) animals, (2) money, (3) the sky. Do not use any other language.",
+            "subtask": "multi_topic"
+        },
+        {
+            "id": "ts_17",
+            "template": "Write three short paragraphs in {language}, each about a completely different topic: (1) water, (2) sickness, (3) laughter. Do not use any other language.",
+            "subtask": "multi_topic"
+        },
+        {
+            "id": "ts_18",
+            "template": "Write three short paragraphs in {language}, each about a completely different topic: (1) fire, (2) school exams, (3) the moon. Do not use any other language.",
+            "subtask": "multi_topic"
+        },
+        {
+            "id": "ts_19",
+            "template": "Write three short paragraphs in {language}, each about a completely different topic: (1) babies, (2) war, (3) rice farming. Do not use any other language.",
+            "subtask": "multi_topic"
+        },
+        {
+            "id": "ts_20",
+            "template": "Write three short paragraphs in {language}, each about a completely different topic: (1) marriage, (2) electricity, (3) a court case. Do not use any other language.",
+            "subtask": "multi_topic"
+        },
+        {
+            "id": "ts_21",
+            "template": "In {language}, explain how to cook rice. Then, in the same response and still in {language}, explain how a solar panel works.",
+            "subtask": "knowledge_switch"
+        },
+        {
+            "id": "ts_22",
+            "template": "In {language}, describe a traditional dance. Then, in the same response and still in {language}, explain what a vaccine is.",
+            "subtask": "knowledge_switch"
+        },
+        {
+            "id": "ts_23",
+            "template": "In {language}, explain how to take care of a goat. Then, in the same response and still in {language}, explain what democracy means.",
+            "subtask": "knowledge_switch"
+        },
+        {
+            "id": "ts_24",
+            "template": "In {language}, describe the process of weaving cloth. Then, in the same response and still in {language}, explain how bank savings work.",
+            "subtask": "knowledge_switch"
+        },
+        {
+            "id": "ts_25",
+            "template": "In {language}, describe a funeral ceremony. Then, in the same response and still in {language}, explain what artificial intelligence is.",
+            "subtask": "knowledge_switch"
+        }
+    ]
+}
